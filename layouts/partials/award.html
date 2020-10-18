@@ -1,0 +1,22 @@
+{{ if .Site.Data.homepage.award.enable }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.award.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.award.items }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="award">
+                            <div class="award__title">{{ .title }}</div>
+                            <div class="award__location">{{ .location }}</div>
+                            <div class="award__year">{{ .year }}</div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

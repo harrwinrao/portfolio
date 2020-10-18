@@ -1,0 +1,161 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Harrwinrao."
+  subtitle: "Back-End Developer"
+  description: "I'm a 28 years old Software Engineer, excited with technology. I am a self starter and strongly believe in the endless knowledge that the art of computing has to offer to those who seek. I have nearly four years of experience working as a software engineer for various multinational tech giants. I love working with people, especially if we share the same passion. Why don't we work together?"
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/harrwinrao/"
+
+    - icon: "github"
+      URL: "https://github.com/harrwinrao"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCV-KqOPAYk3AGQ8hlNbAVKg"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '
+    <p class="lead">
+    My area of focus lies in designing and implementing backend logics for web based products. While my superpower lies in the brains of a program (i.e The backend logic), 
+    I also believe good looks are just as important (i.e The front end UI). I enjoy designing and coding the UI and backend logic as much as
+    talking with users to iterate and improve the experiences that reach business goals.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/harrwinrao/"
+  image:
+    x: "img/who-am-i/user.png"
+    _2x: "img/who-am-i/user.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Selangor"
+      year: "2012-2015"
+      degree: "Bachelor of Computer Science (BSc) - First Class Honours"
+
+    - university: "INTI University College"
+      year: "2010-2011"
+      degree: "Cambridge A-Levels"
+
+    - university: "SMK Shahbandaraya"
+      year: "2004-2009"
+      degree: "Sijil Pelajaran Malaysia (SPM)"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 5+ years of experience working with multiple companies. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/harrwinrao/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/uc?export=download&id=10v5KGVBAog379rhYfSxWI1vj_pCDQCJT"
+
+  items:
+    - title: "Java Developer"
+      company: "Standard Chartered"
+      duration: "Sep 2019 - NOW"
+
+    - title: "Software Engineer"
+      company: "Warner Music"
+      duration: "Jun 2017 - Sept 2019"
+
+    - title: "Web Designer & Java Developer"
+      company: "Hewlett Packard Enterprise (HPE)"
+      duration: "Jan 2016 - Jun 2017"
+
+    - title: "Web Designer & PHP Developer"
+      company: "Photobook Worldwide"
+      duration: "May 2015 - Jan 2016"
+
+# award
+award:
+  enable: true
+  title: "Awards & Accolades"
+  items:
+    - title: "Top Performer Award"
+      location: "Hewlett Packard Enterprise"
+      year: "2017"
+
+    - title: "Faculty Best Student"
+      location: "University of Selangor"
+      year: "2015"
+
+    - title: "Programme Best Student"
+      location: "University of Selangor"
+      year: "2015"
+    
+    - title: "Best Product Final Year Project (Mobile Apps)"
+      location: "University of Selangor"
+      year: "2015"
+
+    - title: "Certified Ethical Hacker"
+      location: "University of Selangor"
+      year: "2015"
+
+# Client & Work
+client_and_work:
+  title: "Works"
+  enable: true
+
+  works:
+    - title: "Python Web Crawler"
+      description: "An optimised multi-processor web crawler designed using Python. Crawls legacy websites to download media files."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/python-crawler.png"
+        _2x: "img/works/python-crawler.png"
+      is_even: true
+
+    - title: "Wordpress/PHP Website"
+      description: "The site is powered by Wordpress. Designed for a non-profit NGO to highlight their activities."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/young-adults.png"
+        _2x: "img/works/young-adults.png"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email"
+    email: '<a href="mailto:harrwinrao@gmail.com">harrwinrao@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
